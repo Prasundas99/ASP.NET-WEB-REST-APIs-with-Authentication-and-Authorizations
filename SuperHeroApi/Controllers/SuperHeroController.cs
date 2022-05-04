@@ -58,7 +58,7 @@ namespace SuperHeroApi.Controllers
         {
             var hero = heros.Find(h => h.Id == id);
             if (hero == null)
-                return BadRequest("Superhero not found");
+                return NotFound("Superhero not found");
             return Ok(hero);
         }
 
@@ -71,6 +71,37 @@ namespace SuperHeroApi.Controllers
         public async Task<ActionResult<List<SuperHeros>>> AddHero(SuperHeros hero)
         {
             heros.Add(hero);
+            return Ok(heros);
+        }
+
+        /**
+        * PUT api/superheroes/{id}
+        * @Description: Update a superhero
+        */
+        [HttpPut("{id}")]
+        public async Task<ActionResult<List<SuperHeros>>> UpdateHero(int id, SuperHeros hero)
+        {
+            var heroToUpdate = heros.Find(h => h.Id == id);
+            if (heroToUpdate == null)
+                return NotFound("Superhero not found");
+            heroToUpdate.Name = hero.Name;
+            heroToUpdate.FirstName = hero.FirstName;
+            heroToUpdate.LastName = hero.LastName;
+            heroToUpdate.Place = hero.Place;
+            return Ok(heros);
+        }
+
+        /**
+        * DELETE api/superheroes/{id}
+        * @Description: Delete a superhero
+        */
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<List<SuperHeros>>> DeleteHero(int id)
+        {
+            var heroToDelete = heros.Find(h => h.Id == id);
+            if (heroToDelete == null)
+                return NotFound("Superhero not found");
+            heros.Remove(heroToDelete);
             return Ok(heros);
         }
 
