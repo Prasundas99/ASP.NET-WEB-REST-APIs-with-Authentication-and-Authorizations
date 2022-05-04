@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\SuperHeroApi",
-    "\\SuperHeroApi\\Controllers"
+    "\\SuperHeroApi\\Controllers",
+    "\\SuperHeroApi\\data"
   ],
-  "SelectedNode": "\\SuperHeroApi\\Controllers\\WeatherForecastController.cs",
+  "SelectedNode": "\\SuperHeroApi.sln",
   "PreviewInSolutionExplorer": false
 }
