@@ -2641,19 +2641,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PRASUN DAS\\.nuget\\packages\\": {}
+    "C:\\Users\\prasun\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PRASUN DAS\\Desktop\\C#\\SuperHeroApi\\SuperHeroApi\\SuperHeroApi.csproj",
+      "projectUniqueName": "C:\\Users\\prasun\\Desktop\\practice\\ASP.NET-WEB-REST-APIs-with-Authentication-and-Authorizations\\SuperHeroApi\\SuperHeroApi.csproj",
       "projectName": "SuperHeroApi",
-      "projectPath": "C:\\Users\\PRASUN DAS\\Desktop\\C#\\SuperHeroApi\\SuperHeroApi\\SuperHeroApi.csproj",
-      "packagesPath": "C:\\Users\\PRASUN DAS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PRASUN DAS\\Desktop\\C#\\SuperHeroApi\\SuperHeroApi\\obj\\",
+      "projectPath": "C:\\Users\\prasun\\Desktop\\practice\\ASP.NET-WEB-REST-APIs-with-Authentication-and-Authorizations\\SuperHeroApi\\SuperHeroApi.csproj",
+      "packagesPath": "C:\\Users\\prasun\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\prasun\\Desktop\\practice\\ASP.NET-WEB-REST-APIs-with-Authentication-and-Authorizations\\SuperHeroApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PRASUN DAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\prasun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2661,7 +2661,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.hangfire.io/nuget/hangfire-ace/v3/index.json": {},
+        "https://nuget.hangfire.io/nuget/hangfire-pro/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -2724,7 +2726,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
